@@ -32,16 +32,20 @@ def process_payment(price, plan_name):
 def get_ai_insights(niche, pain_point, content_format, analysis_type):
     openai.api_key = OPENAI_API_KEY
 
-    prompt = f"Generate insights for the niche '{niche}' based on '{analysis_type}'. Focus on the pain point: '{pain_point}'. Include:
-"             f"- A key question the audience might ask.
-"             f"- A {content_format} idea to address that pain point.
-"             f"- Competitor analysis insights.
-"             f"- Audience & buyer persona details.
-"             f"- Market positioning & unique selling proposition recommendations.
-"             f"- Email & funnel strategy suggestions.
-"             f"- Trending content ideas & best-performing formats.
-"             f"Format:
-1. {analysis_type}: [Generated Insights]
+     Include:
+"       prompt = f"""Generate insights for the niche '{niche}' based on '{analysis_type}'. 
+    Focus on the pain point: '{pain_point}'. Include:
+    - A key question the audience might ask.
+    - A {content_format} idea to address that pain point.
+    - Competitor analysis insights.
+    - Audience & buyer persona details.
+    - Market positioning & unique selling proposition recommendations.
+    - Email & funnel strategy suggestions.
+    - Trending content ideas & best-performing formats.
+    
+    Format:
+    1. {analysis_type}: [Generated Insights]
+    """
 "
 
     response = openai.ChatCompletion.create(
