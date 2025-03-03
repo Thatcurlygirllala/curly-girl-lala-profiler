@@ -6,7 +6,7 @@ import stripe
 import pyperclip
 
 # --- CONFIGURATION ---
-OPENAI_API_KEY = "your_openai_api_key_here"  # Replace with your OpenAI API key
+OPENAI_API_KEY = "import os OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 STRIPE_SECRET_KEY = "your_stripe_secret_key_here"  # Replace with your Stripe Secret Key
 PRODUCT_PRICE = 5.00  # Pay-per-search price
 PRO_PRICE = 15.00  # Pro Monthly Subscription price
