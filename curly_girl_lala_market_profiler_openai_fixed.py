@@ -6,8 +6,9 @@ import stripe
 import pyperclip
 
 # --- CONFIGURATION ---
-OPENAI_API_KEY = "import os OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-STRIPE_SECRET_KEY = "import os STRIPE_SECRET_KEY = os.getenv("STRIPE_SECRET_KEY")
+import os
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")  
+STRIPE_SECRET_KEY = os.getenv("STRIPE_SECRET_KEY")
 PRODUCT_PRICE = 5.00  # Pay-per-search price
 PRO_PRICE = 15.00  # Pro Monthly Subscription price
 PREMIUM_PRICE = 39.00  # Premium Monthly Subscription price
