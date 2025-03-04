@@ -10,8 +10,8 @@ openai.api_key = OPENAI_API_KEY
 OPENAI_MODEL = "gpt-4-turbo"
 MAX_TOKENS = 200
 TEMPERATURE = 0.7
-
-import pathlib LOGO_PATH = str(path.lib.Path(__file__).parent / "cgl_logo.png"
+import pathlib  
+LOGO_PATH = str(pathlib.Path(__file__).parent / "cgl_logo.png")
 APP_TITLE = "BrandVision Profiler by CGL"
 
 st.set_page_config(page_title=APP_TITLE, layout="wide")
