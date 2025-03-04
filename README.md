@@ -1,38 +1,32 @@
-🚀 Curly Girl LaLa’s Market Profiler is an AI-powered business intelligence tool designed to help entrepreneurs, coaches, and small business owners understand their market, analyze competitors, and generate content strategies effortlessly.
+🚀 BrandVision Profiler by Curly Girl LaLa – The Ultimate AI-Powered Audience Insights & Content Strategy Tool for Entrepreneurs, Consultants, & Brand Managers.
 
-🔹 Features:
-
-✅ Audience & Buyer Persona Insights – Get AI-generated customer avatars with demographics, interests, and behaviors.
-✅ Trending Topics & Content Strategy – Discover trending industry topics and get blog, video, and podcast ideas.
-✅ Competitive Analysis – Identify top competitors and analyze their most effective content.
-✅ Market Positioning & Offer Ideas – Define your unique selling proposition and generate profitable product/service ideas.
-✅ AI-Powered Social Media & Ad Copy Generator – Get instant captions, headlines, hashtags, and ad copy.
-✅ Email & Funnel Strategy – AI-generated email sequences, lead magnet ideas, and sales funnel recommendations.
-✅ Subscription-Based Research Reports – Get weekly/monthly market insights tailored to your niche.
+🔹 What is it?
+BrandVision Profiler by CGL is a powerful AI-driven tool designed to help businesses identify key pain points, industry trends, and high-impact content ideas tailored to their niche. Whether you’re an entrepreneur, consultant, or brand manager, this tool provides instant insights into what your audience is searching for—helping you create content that resonates and converts.
 
 
-💰 Pricing Plans:
-	•	Basic ($5 per report) – Limited insights with 1 competitor, 1 trending topic.
-	•	Pro ($15/month) – Limited searches & features.
-	•	Premium ($39/month) – Unlimited searches, full reports, competitor breakdowns, and AI-generated content strategy.
-	•	Annual Premium ($390/year) – Full access at a discounted yearly price (2 months free).
+✨ Key Features
+
+✅ Instant AI-Powered Audience Insights – Enter your niche, and AI generates pain points, market trends, and emerging topics instantly.
+✅ Smarter Content Strategies – AI provides ready-to-use social media post ideas, captions, and engagement tips.
+✅ CGL Branding & Professional Reports – Generate and download branded PDF reports with the CGL logo and insights tailored to your niche.
+✅ Support for ALL Niches & Micro-Markets – Works for any industry, even rare & emerging markets.
+✅ Trending Industry Topics – AI suggests real-time trending topics in your niche to help you stay ahead.
+✅ Save & Export Insights – Store insights for later use and export reports with one click.
+✅ User-Friendly Dashboard & Clean UI – A sleek, professional interface optimized for ease of use.
 
 
-📌 How to Use:
+💰 Pricing Plans
 
-1️⃣ Enter your niche (e.g., “Women in Leadership,” “Fitness Coaches,” etc.).
-2️⃣ Select a pain point or let AI suggest one.
-3️⃣ Choose an analysis type (e.g., Buyer Persona, Competitor Analysis, Social Media Strategy).
-4️⃣ Get AI-generated insights instantly!
+✅ Basic (Pay-Per-Search) – $5 per report
+	•	Limited report with 1 competitor, 1 trending topic, and basic insights.
 
-🔗 Live Demo & Access: Coming Soon
+✅ Pro Monthly Subscription – $15/month (limited searches & features)
+	•	Limited searches per month (exact limit TBD).
+	•	No full competitor breakdown, no done-for-you copy.
 
-🔧 Technologies Used:
-	•	Python (Streamlit for UI)
-	•	OpenAI API (AI-powered insights)
-	•	Stripe API (Payment processing)
-	•	Render (Web deployment)
+✅ Premium Monthly Subscription – $39/month (full access to all features)
+	•	Unlimited searches & full reports.
+	•	AI-generated content strategy, competitor breakdown, email & ad copy.
 
-👩🏽‍💻 Developed by:
-That Curly Girl LaLa – Helping entrepreneurs grow with AI-powered insights 🚀
-
+✅ Annual Premium Subscription – $390/year (discounted yearly plan, 2 months free)
+	•	Includes everything in Premium at a reduced annual price.
