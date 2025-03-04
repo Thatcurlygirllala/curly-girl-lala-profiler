@@ -105,7 +105,7 @@ This AI-powered tool helps **entrepreneurs, consultants, and brand managers** di
 
 ---
 **📢 Start by entering your industry below & click "Generate Insights!"**
-""")st.markdown("## Unlock AI-Powered Brand Insights")
+"")st.markdown("## Unlock AI-Powered Brand Insights")
 
 industry = st.text_input("Enter an industry or niche:", placeholder="e.g. Coffee Shops, Sustainable Fashion")
 
