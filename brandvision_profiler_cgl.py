@@ -11,7 +11,7 @@ OPENAI_MODEL = "gpt-4-turbo"
 MAX_TOKENS = 200
 TEMPERATURE = 0.7
 
-LOGO_PATH = "logo.png"
+LOGO_PATH = os.path.join(os.path.dirname(__file__),"logo.png")
 APP_TITLE = "BrandVision Profiler by CGL"
 
 st.set_page_config(page_title=APP_TITLE, layout="wide")
