@@ -79,8 +79,33 @@ def get_content_ideas(industry):
         return f"Error generating content ideas: {e}"
 
 display_logo()
-st.title(APP_TITLE)
-st.markdown("## Unlock AI-Powered Brand Insights")
+st.title("🚀 BrandVision Profiler by CGL")
+st.markdown("""
+### **Welcome to BrandVision Profiler by CGL!**
+👋 Unlock powerful audience insights and content strategies in seconds!  
+This AI-powered tool helps **entrepreneurs, consultants, and brand managers** discover:  
+✅ **Key customer pain points** in your industry  
+✅ **Emerging market trends** to stay ahead of competitors  
+✅ **Trending topics** that drive engagement  
+✅ **AI-generated social media content ideas** to boost visibility  
+
+---
+### **💰 Pricing Plans**
+🔹 **Basic (Pay-Per-Search) – $5 per report**  
+   - 1 competitor, 1 trending topic, basic insights  
+
+🔹 **Pro Monthly Subscription – $15/month**  
+   - Limited searches & features  
+
+🔹 **Premium Monthly Subscription – $39/month**  
+   - Unlimited searches & full AI-powered reports  
+
+🔹 **Annual Premium – $390/year** (2 months free!)  
+   - Full access at a discounted rate  
+
+---
+**📢 Start by entering your industry below & click "Generate Insights!"**
+""")st.markdown("## Unlock AI-Powered Brand Insights")
 
 industry = st.text_input("Enter an industry or niche:", placeholder="e.g. Coffee Shops, Sustainable Fashion")
 
