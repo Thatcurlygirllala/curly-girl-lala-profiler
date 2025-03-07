@@ -69,11 +69,7 @@ def app():
                 st.warning("Please enter a niche.")
             else:
                 preview_result = "Sample AI-generated insights (OpenAI API call required)."
-                st.markdown("**Pain Point Insights:**
-" + preview_result.replace("-", "🔹"), unsafe_allow_html=True)
-
-        st.write("---")
-
+                st.markdown("**Pain Point Insights:**\n" + preview_result.replace("-", "🔹"), unsafe_allow_html=True)        st.write("---")
         col1, col2 = st.columns(2)
 
         with col1:
