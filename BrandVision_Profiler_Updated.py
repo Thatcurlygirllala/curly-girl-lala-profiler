@@ -85,7 +85,7 @@ def check_or_add_airtable_access(email, access_code=None):
         return None, None, "Error"
 
 # --- STREAMLIT UI ---
-st.image("logo.png", width=200, use_container_width=True)  # Updated to 'use_container_width'
+st.image("logo.svg", width=200, use_container_width=True)  # Updated to 'use_container_width'
 
 st.title("BrandVision Profiler")
 st.header("Unlock the Secrets to What Your Audience Wants")
@@ -129,7 +129,7 @@ if email:
 st.sidebar.header("Admin Back Office")
 admin_email = st.sidebar.text_input("Enter Admin Email to Access Reports:")
 
-if admin_email == "your_admin_email@example.com":
+if admin_email == "curlygirllala@gmail.com":
     st.sidebar.success("✅ Admin Access Granted")
 
     url = f"https://api.airtable.com/v0/{AIRTABLE_BASE_ID}/{AIRTABLE_TABLE_NAME}"
