@@ -1,5 +1,6 @@
 streamlit
 openai>=1.0.0
+requests
 stripe
-pyperclip
-fpdf
+python-dotenv
+reportlab
