@@ -85,7 +85,7 @@ def check_or_add_airtable_access(email, access_code=None):
         return None, None, "Error"
 
 # --- STREAMLIT UI ---
-st.image("logo.svg", width=60, use_container_width=True)  # Updated to 'use_container_width'
+st.image("B.png", width=60, use_container_width=True)  # Updated to 'use_container_width'
 
 st.title("BrandVision Profiler")
 st.header("Unlock the Secrets to What Your Audience Wants")
