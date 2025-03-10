@@ -105,9 +105,9 @@ if email:
 
 # --- ADMIN BACK OFFICE ---
 st.sidebar.header("Admin Back Office")
-admin_email = st.sidebar.text_input("Enter Admin Email to Access Reports:")
+admin_email = st.sidebar.text_input("curlygirllala@gmail.com:")
 
-if admin_email == "your_admin_email@example.com":
+if admin_email == "curlygirllala@gmail.com":
     st.sidebar.success("✅ Admin Access Granted")
 
     url = f"https://api.airtable.com/v0/{AIRTABLE_BASE_ID}/{AIRTABLE_TABLE_NAME}"
