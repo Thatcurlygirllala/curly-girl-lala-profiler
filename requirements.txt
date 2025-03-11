@@ -1,6 +1,6 @@
-streamlit
 openai>=1.0.0
+flask
 requests
 stripe
-python-dotenv
-reportlab
+sendgrid
+gunicorn
