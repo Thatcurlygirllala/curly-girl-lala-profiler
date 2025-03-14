@@ -34,3 +34,23 @@ def get_branding_report(user_id):
 # ✅ Ensure App Runs Properly
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+from flask import Flask, request, jsonify
+from ai_engine import generate_ai_social_calendar
+
+app = Flask(__name__)
+
+@app.route("/generate-social-calendar", methods=["POST"])
+def social_calendar():
+    data = request.json
+    niche = data.get("niche", "general")
+    plan_type = data.get("plan_type", "basic")
+    competitor_analysis = data.get("competitor_analysis", False)
+    regenerate = data.get("regenerate", False)
+
+    # Call AI function to generate the content calendar
+    calendar = generate_ai_social_calendar(niche, plan_type, competitor_analysis, regenerate)
+
+    return jsonify({"social_media_calendar": calendar})
+
+if __name__ == "__main__":
+    app.run(debug=True)
